@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # The shebang line specifies the interpreter for the script, which is Bash in this case. 
 
 if [ $# -eq 0 ]; then
