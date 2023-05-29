@@ -1,5 +1,5 @@
 #!/bin/bash
-# The shebang line specifies the interpreter for the script, which is Bash in this case.
+# The shebang line specifies the interpreter for the script, which is Bash in this case. 
 
 if [ $# -eq 0 ]; then
   echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
