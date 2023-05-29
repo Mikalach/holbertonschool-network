@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 # Checks if the number of arguments passed is equal to 0.
 # If there are no arguments, it displays the usage message and exits with a status of 1.
 fi
-    ping -c 5 "$$1"
+    ping -c 5 "$1"
 # Executes the "ping" command with the "-c 5" option to send 5 ICMP echo requests to the specified IP address.
 # The variable "$ip_address" holds the IP address argument passed to the script.
 
