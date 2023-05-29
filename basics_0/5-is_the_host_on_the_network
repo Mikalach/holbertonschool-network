@@ -11,7 +11,7 @@ fi
 ip_address=$1
 # Assigns the value of the first argument to the "ip_address" variable.
 
-ping -c 5 $ip_address
+ping -c 5 "$ip_address"
 # Executes the "ping" command with the "-c 5" option to send 5 ICMP echo requests to the specified IP address.
 # The variable "$ip_address" holds the IP address argument passed to the script.
 
