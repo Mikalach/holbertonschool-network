@@ -4,14 +4,12 @@
 if [ $# -eq 0 ]; then
   echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
   exit 1
-fi
 # Checks if the number of arguments passed is equal to 0.
 # If there are no arguments, it displays the usage message and exits with a status of 1.
 
-ip_address=$1
-# Assigns the value of the first argument to the "ip_address" variable.
-
-ping -c 5 "$ip_address"
+else
+    ping -c 5 "$$1"
+fi
 # Executes the "ping" command with the "-c 5" option to send 5 ICMP echo requests to the specified IP address.
 # The variable "$ip_address" holds the IP address argument passed to the script.
 
